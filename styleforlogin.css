@@ -267,3 +267,56 @@ form {
         font-size: 30px;
     }
 }
+
+.extra-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.extra-buttons .btn {
+    width: auto;
+    padding: 8px 16px;
+    background: seagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.extra-buttons .btn:hover {
+    background: #45a049;
+}
+
+.role-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.role-buttons .btn {
+    flex: 1;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.btn:hover {
+    background: #45a049;
+    transition: background-color 0.3s ease;
+}
+
+/* Adjust responsive design */
+@media screen and (max-width: 650px) {
+    .role-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .role-buttons .btn {
+        width: 100%;
+    }
+}
