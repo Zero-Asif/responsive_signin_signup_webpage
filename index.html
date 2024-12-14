@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Responsive Login & Signup</title>
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styleforlogin.css">
-
 </head>
-
 <body>
     <div class="container">
         <div class="form-box login">
@@ -23,18 +19,21 @@
                 </div>
                 <div class="input-box">
                     <input type="password" placeholder="Password" required>
-                    <i class='bx bxs-lock-alt' ></i>
+                    <i class='bx bxs-lock-alt'></i>
                 </div>
                 <div class="forgot-link">
                     <a href="#">Forgot password?</a>
                 </div>
-                <button type="submit" class="btn">Signin</button>
+                <div class="role-buttons">
+                    <button type="submit" class="btn signin-tutor">Sign In as Tutor</button>
+                    <button type="submit" class="btn signin-student">Sign In as Student</button>
+                </div>
                 <P>Or login with social platforms</P>
                 <div class="social-icons">
-                    <a href="#"><i class='bx bxl-google' ></i></a>
-                    <a href="#"><i class='bx bxl-facebook' ></i></a>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
                 </div>
             </form>
         </div>
@@ -52,16 +51,18 @@
                 </div>
                 <div class="input-box">
                     <input type="password" placeholder="Password" required>
-                    <i class='bx bxs-lock-alt' ></i>
+                    <i class='bx bxs-lock-alt'></i>
                 </div>
-                
-                <button type="submit" class="btn">Signup</button>
+                <div class="role-buttons">
+                    <button type="submit" class="btn signup-tutor">Sign Up as Tutor</button>
+                    <button type="submit" class="btn signup-student">Sign Up as Student</button>
+                </div>
                 <P>Or signup with social platforms</P>
                 <div class="social-icons">
-                    <a href="#"><i class='bx bxl-google' ></i></a>
-                    <a href="#"><i class='bx bxl-facebook' ></i></a>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
                 </div>
             </form>
         </div>
@@ -78,9 +79,7 @@
                 <button class="btn signin-btn">Signin</button>
             </div>
         </div>
-        
     </div>
-    
     <script src="scriptforlogin.js"></script>
 </body>
 </html>
